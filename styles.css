@@ -1,41 +1,185 @@
-*{
+* {
     margin: 0;
-}
-body{
-    background-color: rgb(169, 240, 128);
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
-h1{
-    color:rgb(241, 158, 4);
-    background-color: blue;
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 450px;
+    background: #8cc2a9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(137, 32%, 71%, 0.61), hsla(222, 11%, 24%, 0.623)), url(plan/diario.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.61), hsla(222, 11%, 24%, 0.623)), url(plan/diario.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: auto;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav>a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+header .textos-header {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.textos-header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.planificar{
+    width: 80%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.consejos{
+    width: 80%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.materiales{
+    width: 80%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.organizar{
+    width: 80%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.frase{
+    width: 80%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+
+
+
+h1 {
+    color: rgb(241, 158, 4);
+    background-color: rgb(125, 173, 155);
     margin-bottom: 20px;
     margin-top: 30px;
     padding: 20px;
     border: 10px;
-    width: 400px;
-    height: 180px;
+    width: 500px;
+    height: 250px;
     text-align: center;
     top: 50%;
     left: 50%;
 }
 
-.text-center{
-    text-align: center;    
+.variedade{
+    width: 100%;
+    height: 100px;
 }
-.text-left{
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
     text-align: left;
 }
 
-.text-justify{
+.text-justify {
     text-align: justify;
 }
-#cabecera3{
-    color:blue;
+
+#cabecera3 {
+    color: blue;
 }
 
-.text-coral{
-    color:coral;
+.text-coral {
+    color: coral;
 }
-h1{
-    background-color:rgba(213, 228, 84, 0.452);
+
+
+footer {
+    background: #414140;
+    padding: 60 px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo {
+    text-align: center;
+
+}
+
+.content-foo h4 {
+    color: #fff;
+    border-bottom: 3px solid #6e92f5;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+
+.content-foo p {
+    color: #ccc;
+
 }
